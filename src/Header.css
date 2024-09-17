@@ -1,0 +1,93 @@
+
+header {
+  display: flex;
+  justify-content: space-between; /* Push title and nav to opposite sides */
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #333;
+  color: white;
+  width: 100%;
+  box-sizing: border-box; /* Include padding in width calculation */
+  flex-wrap: wrap; /* Allow items to wrap on smaller screens */
+}
+
+/* Style for the title */
+header h1 {
+  margin: 0;
+  font-size: 2.5rem;
+  white-space: nowrap; /* Prevents wrapping */
+  animation: colorChange 5s infinite; /* Applies the color change over 5 seconds */
+  transition: color 0.3s ease;
+  flex: 1; /* Allow the H1 to take up as much space as possible */
+}
+
+/* Navigation container */
+nav {
+  display: flex;
+  justify-content: flex-end; /* Align links to the right */
+  gap: 10px; /* Add space between links */
+  flex-wrap: wrap; /* Allow links to wrap on smaller screens */
+  flex: 1; /* Ensure it takes equal space as the H1 */
+  max-width: 100%; /* Avoid overflow */
+}
+
+/* Navigation Links */
+nav ul {
+  display: flex;
+  flex-wrap: wrap; /* Enable wrapping for the links */
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  justify-content: flex-end; /* Align links to the right */
+  gap: 10px;
+}
+
+nav ul li {
+  margin: 0;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: white;
+  padding: 10px 15px;
+  font-size: 1rem;
+  transition: background-color 0.3s ease;
+  display: block;
+  text-align: center;
+}
+
+/* Active Link */
+nav ul li a.active {
+  background-color: #555;
+  border-radius: 5px;
+}
+
+/* Hover effect */
+nav ul li a:hover {
+  background-color: #444;
+  border-radius: 5px;
+}
+
+/* Color-changing animation for h1 */
+@keyframes colorChange {
+  0% {
+    color: #ff6b6b; 
+  }
+  25% {
+    color: #faf9f4; 
+  }
+  50% {
+    color: #6bffb8; 
+  }
+  75% {
+    color: #6bc3ff; 
+  }
+  100% {
+    color: #ff85f6; 
+  }
+}
+
+header h1 {
+  animation: colorChange 5s infinite;
+  transition: color 0.3s ease;
+}

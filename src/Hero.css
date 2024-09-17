@@ -1,0 +1,74 @@
+/* App.css or Hero.css */
+body, html {
+    margin: 0;
+    
+    height: 100%;
+    width: 100%;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 50px;
+    background-color: #333; /* Dark background for the nav */
+    color: #fff; /* Text color for the nav */
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 100;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav ul li {
+    margin: 0 15px;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+  }
+  
+  nav ul li a:hover {
+    color: #d4af37; /* Gold hover effect */
+  }
+  
+
+  
+  
+  .hero h1 {
+    font-size: 4rem;
+    margin: 0;
+    font-weight: 700;
+  }
+  
+  .hero h3 {
+    font-size: 1.5rem;
+    font-weight: 300;
+    margin-bottom: 20px;
+  }
+  
+  .hero .cta-btn {
+    background-color: #fff;
+    color: #000;
+    padding: 10px 30px;
+    border-radius: 25px;
+    font-size: 18px;
+    text-decoration: none;
+    font-weight: 600;
+    transition: background-color 0.3s ease;
+  }
+  
+  .hero .cta-btn:hover {
+    background-color: #d4af37; /* Gold hover effect for the button */
+  }
+  
+  

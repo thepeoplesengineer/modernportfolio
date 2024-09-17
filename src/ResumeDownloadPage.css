@@ -1,0 +1,87 @@
+/* General Page Styling */
+.resume-download-page {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 50vh;
+    width: 2550vh;
+    text-align: center;
+    background-color: #1a1a1a;
+    color: #fff;
+    box-sizing: border-box;
+  }
+  
+  /* Heading Styling */
+  .resume-download-page h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: #faf1f1;
+    letter-spacing: 1px;
+    animation: fadeIn 1s ease-in-out;
+  }
+  
+  /* Description Text */
+  .resume-download-page p {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+    max-width: 700px;
+    line-height: 1.6;
+    color: #ccc;
+    animation: fadeIn 1.5s ease-in-out;
+  }
+  
+  /* Download Button Styling */
+  .download-link {
+    background-color: #ff6b6b;
+    color: white;
+    padding: 12px 25px;
+    border-radius: 30px;
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: 600;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    animation: fadeIn 2s ease-in-out;
+  }
+  
+  /* Hover Effects for the Button */
+  .download-link:hover {
+    background-color: #ff3b3b;
+    transform: translateY(-3px);
+  }
+  
+  /* Subtle Shadow */
+  .download-link:active {
+    transform: translateY(0);
+  }
+  
+  /* Animation Keyframes */
+  @keyframes fadeIn {
+    0% {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  /* Responsive Design for Mobile */
+  @media (max-width: 768px) {
+    .resume-download-page h1 {
+      font-size: 2rem;
+    }
+  
+    .resume-download-page p {
+      font-size: 1rem;
+      padding: 0 20px;
+    }
+  
+    .download-link {
+      font-size: 1rem;
+      padding: 10px 20px;
+    }
+  }
+  

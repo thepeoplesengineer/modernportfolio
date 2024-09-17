@@ -1,0 +1,59 @@
+/* Footer styles */
+footer {
+  display: flex;
+  justify-content: center; /* Center content */
+  align-items: center;
+  padding: 20px;
+  background-color: #333;
+  color: white;
+  width: 100%; /* Ensure the footer spans the entire width */
+  box-sizing: border-box; /* Include padding in width calculation */
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  max-width: 1200px; /* Ensure content matches the body width */
+  margin: 0 auto; /* Center the content */
+  padding: 0 20px;
+  box-sizing: border-box;
+}
+
+/* Social media links styling */
+.social-links {
+  display: flex;
+  gap: 15px;
+}
+
+.social-links a {
+  color: white;
+  font-size: 1.5rem;
+  transition: color 0.3s ease;
+}
+
+.social-links a:hover {
+  color: #ccc;
+}
+
+.back-to-top {
+  color: white;
+  text-decoration: none;
+  font-size: 0.9rem;
+}
+
+.back-to-top:hover {
+  text-decoration: underline;
+}
+
+/* Mobile adjustments */
+footer {
+  flex-wrap: wrap;
+}
+
+.footer-content {
+  flex-direction: column;
+  text-align: center;
+  gap: 15px;
+}
