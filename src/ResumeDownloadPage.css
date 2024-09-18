@@ -1,18 +1,18 @@
-/* General Page Styling */
+
 .resume-download-page {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    min-height: 50vh;
-    width: 2550vh;
+    min-height: 100vh;
+    width: 1550vh;
     text-align: center;
     background-color: #1a1a1a;
     color: #fff;
-    box-sizing: border-box;
+    
   }
   
-  /* Heading Styling */
+
   .resume-download-page h1 {
     font-size: 2.5rem;
     margin-bottom: 20px;
@@ -21,19 +21,19 @@
     animation: fadeIn 1s ease-in-out;
   }
   
-  /* Description Text */
+
   .resume-download-page p {
     font-size: 1.2rem;
-    margin-bottom: 30px;
-    max-width: 700px;
+    margin-bottom: 20px;
+    max-width: 80%;
     line-height: 1.6;
     color: #ccc;
     animation: fadeIn 1.5s ease-in-out;
   }
   
-  /* Download Button Styling */
+
   .download-link {
-    background-color: #ff6b6b;
+    background-color: #463030;
     color: white;
     padding: 12px 25px;
     border-radius: 30px;
@@ -45,13 +45,13 @@
     animation: fadeIn 2s ease-in-out;
   }
   
-  /* Hover Effects for the Button */
+
   .download-link:hover {
-    background-color: #ff3b3b;
+    background-color: #3b48ff;
     transform: translateY(-3px);
   }
   
-  /* Subtle Shadow */
+
   .download-link:active {
     transform: translateY(0);
   }
@@ -68,7 +68,7 @@
     }
   }
   
-  /* Responsive Design for Mobile */
+
   @media (max-width: 768px) {
     .resume-download-page h1 {
       font-size: 2rem;

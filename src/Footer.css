@@ -4,7 +4,7 @@ footer {
   justify-content: center; /* Center content */
   align-items: center;
   padding: 20px;
-  background-color: #333;
+  background-color: #010101;
   color: white;
   width: 100%; /* Ensure the footer spans the entire width */
   box-sizing: border-box; /* Include padding in width calculation */

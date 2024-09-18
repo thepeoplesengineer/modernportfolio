@@ -4,7 +4,7 @@ header {
   justify-content: space-between; /* Push title and nav to opposite sides */
   align-items: center;
   padding: 10px 20px;
-  background-color: #333;
+  background-color: #0f0e0e;
   color: white;
   width: 100%;
   box-sizing: border-box; /* Include padding in width calculation */
@@ -14,7 +14,7 @@ header {
 /* Style for the title */
 header h1 {
   margin: 0;
-  font-size: 2.5rem;
+  font-size: 5.5rem;
   white-space: nowrap; /* Prevents wrapping */
   animation: colorChange 5s infinite; /* Applies the color change over 5 seconds */
   transition: color 0.3s ease;

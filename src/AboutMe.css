@@ -4,10 +4,10 @@
   justify-content: center;
   width: 100%;
   align-items: center;
-  min-height: 100vh; /* Ensure it takes up at least the full height of the viewport */
+  min-height: 100vh; 
   background: linear-gradient(45deg, #654c4c, #ffd93d, #02381e, #6bc3ff, #ff85f6);
-  background-size: 500% 500%; /* Larger size for smoother transition */
-  animation: colorChange 15s ease infinite; /* Background animation */
+  background-size: 500% 400%; 
+  animation: colorChange 15s ease infinite; 
 
   box-sizing: border-box;
 }
@@ -20,45 +20,45 @@
 }
 
 
-/* Container Styling */
+
 .about-me-container {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 1500px;
-  padding: 20px;
+  width: 80%;
+  padding: 30px;
   background-color: rgba(0, 0, 0, 0.3); /* Semi-transparent background for contrast */
   border-radius: 10px;
   text-align: center;
   color: white;
-  gap: 20px; /* Add space between items */
+  gap: 20px; 
 }
 
-/* Profile Picture */
+
 .profile-pic {
   width: 450px;
   height: 450px;
   border-radius: 50%;
   object-fit: cover;
-  border: 4px solid white;
+  border: 10px solid white;
 }
 
 /* Heading Styling */
 .about-me h1 {
-  font-size: 2.5rem;
+  font-size: 3rem;
   margin: 0;
 }
 
 .about-me h3 {
-  font-size: 1.5rem;
+  font-size: 2.5rem;
   font-weight: 400;
   margin-bottom: 20px;
 }
 
 /* About Me Paragraph Styling */
 .about-me p {
-  font-size: 1.2rem;
+  font-size: 1.5rem;
   line-height: 1.6;
   margin: 0 0 30px;
   max-width: 700px;

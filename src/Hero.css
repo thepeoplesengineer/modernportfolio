@@ -12,8 +12,8 @@ body, html {
     justify-content: space-between;
     align-items: center;
     padding: 10px 50px;
-    background-color: #333; /* Dark background for the nav */
-    color: #fff; /* Text color for the nav */
+    background-color: #0f0e0e; /* Dark background for the nav */
+    color: #efdcdc; /* Text color for the nav */
     position: fixed;
     width: 100%;
     top: 0;
@@ -34,7 +34,7 @@ body, html {
   nav ul li a {
     text-decoration: none;
     color: #fff;
-    font-size: 16px;
+    font-size: 35px;
   }
   
   nav ul li a:hover {
@@ -45,10 +45,13 @@ body, html {
   
   
   .hero h1 {
-    font-size: 4rem;
+    font-size: 6rem;
     margin: 0;
     font-weight: 700;
+    
   }
+
+ 
   
   .hero h3 {
     font-size: 1.5rem;
